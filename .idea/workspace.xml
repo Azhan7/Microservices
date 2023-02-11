@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9391a883-2e7c-4c0d-96fc-6e05acd714ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-Service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/microservices/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/microservices/inventoryservice/controller/InventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/microservices/inventoryservice/model/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/microservices/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/microservices/inventoryservice/service/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/test/java/com/microservices/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/dto/OrderLineItemsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/dto/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/model/OrderLineItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-Service/src/test/java/com/microservices/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-Service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/microservices/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/microservices/productservice/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/microservices/productservice/dto/ProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/microservices/productservice/dto/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/microservices/productservice/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/microservices/productservice/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/microservices/productservice/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-Service/src/test/java/com/microservices/productservice/ProductServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9391a883-2e7c-4c0d-96fc-6e05acd714ba" name="Changes" comment="MS-01 Initial Commit." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +24,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -137,8 +105,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676131326575</updated>
-      <workItem from="1676131328523" duration="938000" />
+      <workItem from="1676131328523" duration="1242000" />
     </task>
+    <task id="LOCAL-00001" summary="MS-01 Initial Commit.">
+      <created>1676132578180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676132578180</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,5 +130,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MS-01 Initial Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="MS-01 Initial Commit." />
   </component>
 </project>
