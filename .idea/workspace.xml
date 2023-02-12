@@ -4,11 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9391a883-2e7c-4c0d-96fc-6e05acd714ba" name="Changes" comment="MS-01 Initial Commit." />
+    <list default="true" id="9391a883-2e7c-4c0d-96fc-6e05acd714ba" name="Changes" comment="MS-01 Initial Commit.">
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/microservices/inventoryservice/dto/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/dto/InventoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/microservices/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/microservices/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/microservices/inventoryservice/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/microservices/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/microservices/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/microservices/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/microservices/orderservice/service/OrderService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,11 +55,17 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Azhan-Learning\MicroServices-Base\Product-Service" />
       <recent name="E:\Azhan-Learning\MicroServices-Base\Order-Service" />
       <recent name="E:\Azhan-Learning\MicroServices-Base\Inventory-Service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.microservices.orderservice.dto" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -49,7 +73,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
     <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Inventory-Service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.inventoryservice.InventoryServiceApplication" />
@@ -91,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.InventoryServiceApplication" />
         <item itemvalue="Spring Boot.OrderServiceApplication" />
+        <item itemvalue="Spring Boot.InventoryServiceApplication" />
         <item itemvalue="Spring Boot.ProductServiceApplication" />
       </list>
     </recent_temporary>
@@ -105,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676131326575</updated>
-      <workItem from="1676131328523" duration="1242000" />
+      <workItem from="1676131328523" duration="5768000" />
     </task>
     <task id="LOCAL-00001" summary="MS-01 Initial Commit.">
       <created>1676132578180</created>
@@ -114,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676132578180</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MS-01 Initial Commit.">
+      <created>1676132597888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676132597888</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
